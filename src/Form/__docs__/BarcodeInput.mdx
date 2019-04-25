@@ -1,0 +1,27 @@
+---
+name: BarcodeInput
+route: /forms/barcode-input
+menu: Form
+---
+
+import { Playground, Props } from 'docz';
+import BarcodeInput from '../BarcodeInput';
+
+# BarcodeInput
+
+A basic text input field with maxLength and status text.
+
+## Props
+
+<Props of={BarcodeInput} />
+
+## Basic usage
+
+<Playground>
+  <BarcodeInput
+    status={'Enter up to 19 digits'}
+    name={'fieldName'}
+    maxLength={19}
+    onChange={() => {}}
+  />
+</Playground>

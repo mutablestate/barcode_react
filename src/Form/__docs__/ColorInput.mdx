@@ -1,0 +1,29 @@
+---
+name: ColorInput
+route: /form/color-input
+menu: Form
+---
+
+import { Playground, Props } from 'docz';
+import ColorInput from '../ColorInput';
+
+# ColorInput
+
+A basic html select field for colors.
+
+## Props
+
+<Props of={ColorInput} />
+
+## Basic usage
+
+<Playground>
+  <form>
+    <ColorInput
+      label={'Color picker'}
+      name={'primaryColor'}
+      color={'red'}
+      onChange={() => {}}
+    />
+  </form>
+</Playground>

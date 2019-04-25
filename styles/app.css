@@ -1,0 +1,23 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 4px;
+}
+
+.barcode-status {
+  margin-top: 2px;
+  font-size: 14px;
+  color: #4caf50;
+}

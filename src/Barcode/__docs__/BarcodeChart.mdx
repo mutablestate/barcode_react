@@ -1,0 +1,28 @@
+---
+name: BarcodeChart
+route: /barcode/chart
+menu: Barcode
+---
+
+import { Playground, Props } from 'docz';
+import BarcodeChart from '../BarcodeChart';
+
+# BarcodeChart
+
+The generated barcode output represented by colored primary bars and a checksum bar.
+
+## Props
+
+<Props of={BarcodeChart} />
+
+## Basic usage
+
+<Playground>
+  <BarcodeChart
+    bars={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+    checksumDigit={4}
+    primaryColor={'red'}
+    secondaryColor={'blue'}
+    status={'Enter up to 19 digits'}
+  />
+</Playground>

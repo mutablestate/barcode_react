@@ -1,0 +1,41 @@
+{
+  "name": "barcode_react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "10.15.x",
+    "yarn": "1.15.x"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "cypress:open": "cypress open",
+    "cypress:headless": "cypress run",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "cypress": "^3.2.0",
+    "docz": "^1.0.4",
+    "docz-theme-default": "^1.0.4",
+    "jest": "^24.7.1",
+    "parcel": "^1.12.3",
+    "react-test-renderer": "^16.8.6"
+  },
+  "dependencies": {
+    "mustard-ui": "^0.0.8",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/(dist|cypress|node_modules)/"
+    ]
+  }
+}

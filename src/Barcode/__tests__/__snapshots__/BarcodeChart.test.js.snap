@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarcodeChart must render correctly with required props 1`] = `
+Array [
+  <h4
+    className="align-center"
+  >
+    Generated Barcode
+  </h4>,
+  <div
+    className="flex-container"
+  >
+    <div
+      data-test="BarcodeChart:Bar:div:blue"
+      style={
+        Object {
+          "backgroundColor": "blue",
+          "flex": "0 0 10px",
+          "height": "20%",
+        }
+      }
+    >
+      1
+    </div>
+    <div
+      data-test="BarcodeChart:Bar:div:blue"
+      style={
+        Object {
+          "backgroundColor": "blue",
+          "flex": "0 0 10px",
+          "height": "30%",
+        }
+      }
+    >
+      2
+    </div>
+    <div
+      data-test="BarcodeChart:Bar:div:blue"
+      style={
+        Object {
+          "backgroundColor": "blue",
+          "flex": "0 0 10px",
+          "height": "40%",
+        }
+      }
+    >
+      3
+    </div>
+    <div
+      data-test="BarcodeChart:Bar:div:blue"
+      style={
+        Object {
+          "backgroundColor": "blue",
+          "flex": "0 0 20px",
+          "height": "50%",
+        }
+      }
+    >
+      4
+    </div>
+    <div
+      data-test="BarcodeChart:Bar:div:purple"
+      style={
+        Object {
+          "backgroundColor": "purple",
+          "flex": "0 0 10px",
+          "height": "20%",
+        }
+      }
+    >
+      1
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorInput must render correctly with required props 1`] = `
+<div
+  className="form-control"
+>
+  <label>
+    LABEL
+  </label>
+  <select
+    data-test="ColorInput:select:primaryColor"
+    name="primaryColor"
+    onChange={[MockFunction]}
+    value="red"
+  >
+    <option
+      data-test="ColorInput:option:red"
+      value="red"
+    >
+      Red
+    </option>
+    <option
+      data-test="ColorInput:option:blue"
+      value="blue"
+    >
+      Blue
+    </option>
+    <option
+      data-test="ColorInput:option:yellow"
+      value="yellow"
+    >
+      Yellow
+    </option>
+  </select>
+</div>
+`;

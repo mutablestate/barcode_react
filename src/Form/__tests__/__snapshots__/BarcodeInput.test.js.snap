@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarcodeInput must render correctly with optional props 1`] = `
+<div
+  className="form-control"
+>
+  <label>
+    Barcode Digits
+  </label>
+  <input
+    data-test="BarcodeInput:input"
+    maxLength={19}
+    name="myFieldName"
+    onChange={[MockFunction]}
+    type="text"
+    value="currentValue"
+  />
+  <span
+    className="barcode-status"
+    data-test="BarcodeInput:status"
+  >
+    Enter up to 19 digits
+  </span>
+</div>
+`;
+
+exports[`BarcodeInput must render correctly with required props 1`] = `
+<div
+  className="form-control"
+>
+  <label>
+    Barcode Digits
+  </label>
+  <input
+    data-test="BarcodeInput:input"
+    maxLength={19}
+    name="myFieldName"
+    onChange={[MockFunction]}
+    type="text"
+  />
+  <span
+    className="barcode-status"
+    data-test="BarcodeInput:status"
+  >
+    Enter up to 19 digits
+  </span>
+</div>
+`;
