@@ -11,14 +11,6 @@ Follow the installation instructions for your operating system.
 1. `node` (https://github.com/creationix/nvm)
 2. `yarn` (https://yarnpkg.com/en/docs/install)
 
-## Documentation
-
-React component library built with [Docz](https://www.docz.site/)
-
-```sh
-yarn docs:dev # compile and watch `.mdx` files.
-```
-
 ## Up and running
 
 The build tool is [ParcelJS](https://parceljs.org/)
@@ -29,6 +21,14 @@ yarn start # start the dev server
 ```
 
 Visit http://localhost:1234
+
+## Documentation
+
+React component library built with [Docz](https://www.docz.site/)
+
+```sh
+yarn docs:dev # compile and watch `.mdx` files.
+```
 
 ## Tests
 
@@ -48,7 +48,7 @@ yarn test:watch # run tests when files change
 To run the [Cypress](https://www.cypress.io/) test suite.
 
 ```sh
-yarn start # make sure the dev server is running
+yarn start # make sure the dev server is running on http://localhost:1234
 yarn run cypress:open # opens a new Chrome browser instance and Cypress GUI test runner
 yarn run cypress:headless # runs all tests headlessly in the Electron browser
 ```
